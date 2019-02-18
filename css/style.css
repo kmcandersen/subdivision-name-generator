@@ -1,0 +1,170 @@
+html {
+	height: 100%;
+    display: flex;
+    font-size: 12px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	width: 60%;
+	display: flex;
+    align-items: center; 
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}	
+
+
+h1 {
+	font-weight: 400;
+	text-transform: uppercase;
+	color: gray;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+#result-container {
+	display: none;
+}
+
+.name-panel {
+	margin-top: 22px;
+	margin-bottom: 25px;
+}
+
+#name-text {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 6em;
+	line-height: 1.2;
+}
+
+.icon-panel {
+	width: 192px;  
+	margin: 0 auto;
+	height: 90px;
+}
+
+.box {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin: 0 2px;
+	background-color: orange;
+}
+
+#box-2 {
+	display: none;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	margin: 7px;
+	display: flex;
+}
+
+img {
+	max-width: 70px;
+	max-height: 90px;
+	display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.clear-float {
+	clear: both;
+}
+
+button {
+	margin: 20px auto;
+	padding: 10px 0;
+	outline: none;
+	background-color: lightgray;
+	width: 75px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.2em;
+	border: none;
+	transition-duration: 1s;
+	transition-property: background-color;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+#result {
+	display: none;
+}
+
+#result a {
+	color: gray;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: black;
+	font-weight: ;
+}
+
+/*Credits page*/
+.credit-heading {
+	text-transform: none;
+}
+
+ul {
+	letter-spacing: .2px;
+	padding: 0;
+	font-size: 1.2em;
+	list-style: none;
+	line-height: 1.5;
+}
+
+h1 a, ul a, button a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 a:hover {
+	font-weight: 900;
+}
+
+ul a:hover {
+	font-weight: 900;
+}
+
+.fa {
+	padding: 0 2px;
+}
+
+@media screen and (max-width: 700px){
+  	html {
+		font-size: 14px;
+  	}
+  	body {
+  		width: 90%;
+  	}
+  	h1 {
+  		font-size: 1.1em;
+  		padding-top: 5px;
+  	}
+  	.name-panel {
+		margin-bottom: 12px;
+	}
+  	#name-text {
+		line-height: 1;
+		padding-bottom: 13px;
+		font-size: 4.5em;
+  	}
+  }
+
